@@ -1,0 +1,30 @@
+.nav-brand{
+    font-family: 'EB Garamond', serif;
+}
+.vid-parent{
+    position: absolute;
+    right: 0.5px;
+}
+video
+{
+    width:100%;
+    height: 100%;
+}
+.vid-overlay
+{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        opacity: 0.10;
+}
+.vid-content{
+    
+        position:absolute;
+        z-index: 2;
+        top: 35%;
+        left: 5%;
+        text-align: center; 
+}

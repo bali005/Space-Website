@@ -1,0 +1,68 @@
+.navbar-brand{
+    font-family: 'Lora', serif;
+}
+.custom-nav-item a{
+    font-family: 'Lora', serif;
+    color: white !important;
+}
+.custom-nav-item:hover{
+    background-color: transparent;
+    border: solid #da4535;
+    border-radius: 10px;
+}
+.remove-vid-marg{
+    margin: 0px;
+    padding: 0px;
+}
+.vid-parent{
+    position: relative;
+}
+video
+{
+    width:100%;
+    height: 100%;
+}
+.vid-overlay
+{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        opacity: 0.10;
+}
+.vid-content{
+    
+    position:absolute;
+        z-index: 2;
+        top: 35%;
+        left: 35%;
+        text-align: center;
+        color: orangered; 
+}
+.img-parent{
+    size: 30%;
+}
+@media screen and (min-width: 0px) and (max-width: 700px) {
+    .my-content{
+        font-size: smaller;
+        display:block;
+    }
+    .vid-content{
+        top: 9%;
+        left: 20%;
+        right: 25%;
+    }
+    .custom-nav .custom-nav-item a{
+        padding: 10px 20px;
+        background-color: rgba(44, 42, 42, 0.74);
+    }
+}
+.social a{
+    color: black !important;
+}
+.social:hover{
+    background-color: rgb(216, 129, 71);
+    padding: 1px;
+}
